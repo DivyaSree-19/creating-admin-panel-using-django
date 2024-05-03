@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container-fluid" style="margin-top:300px;">
+   <div class="col-md-offset-4 col-md-4 ">
+      
+      <table class="table table-bordered table-hover">
+         <tr>
+            <th>User Name</th>
+            <th>User MailID</th>
+         </tr>
+         <tr>
+            <td>{{user.username}}</td>
+            <td>{{user.email}}</td>
+         </tr>
+
+      </table>
+   </div>
+
+ </div> 
+{% endblock %}
